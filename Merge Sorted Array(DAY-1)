@@ -1,0 +1,52 @@
+Merge Sorted Array
+
+## Problem Statement
+
+You are given two integer arrays `nums1` and `nums2`, sorted in non-decreasing order, and two integers `m` and `n`, representing the number of elements in `nums1` and `nums2` respectively.
+
+Merge `nums1` and `nums2` into a single array sorted in non-decreasing order.
+
+The final sorted array should not be returned by the function, but instead be stored inside the array `nums1`. To accommodate this, `nums1` has a length of `m + n`, where the first `m` elements denote the elements that should be merged, and the last `n` elements are set to `0` and should be ignored. `nums2` has a length of `n`.
+
+---
+
+## Intuition & Approach
+
+Merging from the start would overwrite elements in `nums1` that haven't been compared yet, requiring $O(m)$ extra memory. 
+
+By starting from the **end** of both arrays and placing the largest elements into the trailing positions of `nums1`:
+1. Use three pointers:
+   * `i = m - 1`: points to the last valid element in `nums1`.
+   * `j = n - 1`: points to the last element in `nums2`.
+   * `k = m + n - 1`: points to the last insertion index in `nums1`.
+2. Compare `nums1[i]` and `nums2[j]`, placing the larger value at `nums1[k]`.
+3. Decrement the corresponding pointer (`i` or `j`) and `k`.
+4. The loop terminates when all elements of `nums2` are placed (`j < 0`). If elements remain in `nums1`, they are already in their correct sorted positions.
+
+---
+
+## Complexity Analysis
+
+* **Time Complexity:** $O(m + n)$ — Each element is examined and placed at most once.
+* **Space Complexity:** $O(1)$ — In-place modification with no extra auxiliary data structures.
+
+---
+
+## Solution (Java)
+
+```java
+class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int i = m - 1;
+        int j = n - 1;
+        int k = m + n - 1;
+
+        while (j >= 0) {
+            if (i >= 0 && nums1[i] > nums2[j]) {
+                nums1[k--] = nums1[i--];
+            } else {
+                nums1[k--] = nums2[j--];
+            }
+        }
+    }
+}
