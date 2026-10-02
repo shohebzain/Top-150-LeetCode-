@@ -15,7 +15,7 @@ Example 2:
 Input: citations = [1,3,1]
 Output: 1
   code:
-class RandomizedSet {
+class RandomizedSet { 
     private Map<Integer, Integer> d = new HashMap<>();
     private List<Integer> q = new ArrayList<>();
     private Random rnd = new Random();
