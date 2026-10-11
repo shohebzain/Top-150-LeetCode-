@@ -1,31 +1,57 @@
 # 🚀 LeetCode Top Interview 150
 
 <p align="center">
-  <img src="https://img.shields.io/badge/LeetCode-Top%20Interview%20150-orange?style=for-the-badge&logo=leetcode" />
-  <img src="https://img.shields.io/badge/Problems-150-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Solved-23-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LeetCode-Top%20Interview%20150-orange?style=for-the-badge&logo=leetcode" alt="LeetCode Top Interview 150" />
+  <img src="https://img.shields.io/badge/Problems-150-blue?style=for-the-badge" alt="150 problems" />
+  <img src="https://img.shields.io/badge/Solved-3-success?style=for-the-badge" alt="3 solved" />
+  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" alt="In progress" />
 </p>
 
 <p align="center">
   <b>🎯 Interview-focused DSA preparation through LeetCode's Top Interview 150</b>
 </p>
 
+> A structured record of problem-solving patterns, optimized solutions, complexity analysis, and interview preparation.
+
+---
+
+## 📚 Contents
+
+- [Progress](#-progress)
+- [Current Focus](#-current-focus)
+- [Problem Categories](#️-problem-categories)
+- [Learning Strategy](#-learning-strategy)
+- [DSA Patterns](#-dsa-patterns-im-learning)
+- [Goals](#-goals)
+- [Progress Log](#-progress-log)
+- [Languages](#-languages)
+- [Repository Structure](#-repository-structure)
+- [Why This Repository?](#-why-this-repository)
+
 ---
 
 ## 📊 Progress
 
+> Progress is based on the number of checked items in the problem checklist below.
+
 | 📌 Metric | Progress |
 |---|---:|
 | 🧩 Total Problems | **150** |
-| ✅ Solved | **23** |
-| ⏳ Remaining | **127** |
-| 📈 Completion | **15.3%** |
+| ✅ Solved | **3** |
+| ⏳ Remaining | **147** |
+| 📈 Completion | **2.0%** |
 | 🏆 Goal | **150 / 150** |
 
 ### 🔥 Progress Bar
 
-`████░░░░░░░░░░░░░░░░` **15.3%**
+`██░░░░░░░░░░░░░░░░░░` **2.0%**
+
+### 🎯 Current Focus
+
+- Reach the first milestone of **30 solved problems**
+- Document the pattern used for each solution
+- Record time and space complexity
+- Revisit completed problems regularly
 
 ---
 
@@ -296,22 +322,20 @@
 
 ---
 
-# 📚 Learning Strategy
+## 📚 Learning Strategy
 
-The goal is not just to memorize solutions.
-
-For every problem, I focus on:
+The goal is not just to memorize solutions. For every problem, I follow this process:
 
 ```text
 1️⃣ Understand the problem
         ↓
 2️⃣ Identify the pattern
         ↓
-3️⃣ Write brute-force approach
+3️⃣ Write a brute-force approach
         ↓
 4️⃣ Optimize the solution
         ↓
-5️⃣ Analyze Time & Space Complexity
+5️⃣ Analyze time and space complexity
         ↓
 6️⃣ Implement independently
         ↓
@@ -320,29 +344,30 @@ For every problem, I focus on:
 
 ---
 
-# 🧠 DSA Patterns I'm Learning
+## 🧠 DSA Patterns I'm Learning
 
 | Pattern | Key Concepts |
 |---|---|
-| 🟠 Arrays | Traversal, Prefix Sum, In-place Operations |
-| 🔵 Two Pointers | Left/Right Pointer, Partitioning |
-| 🟣 Sliding Window | Dynamic Window, Frequency Map |
-| 🟡 Hashing | HashMap, HashSet, Frequency Counting |
-| 🔴 Stack | Monotonic Stack, Expression Evaluation |
-| 🔷 Linked List | Fast/Slow Pointer, Reversal |
-| 🌳 Trees | DFS, BFS, Recursion |
-| 🕸️ Graphs | BFS, DFS, Topological Sort |
-| 🔎 Binary Search | Search Space Reduction |
-| 🏔️ Heap | Priority Queue, Top-K |
-| 🔙 Backtracking | Recursion, State Exploration |
-| 🧠 DP | Memoization, Tabulation |
-| ⚡ Bit Manipulation | XOR, Bit Masks |
+| 🟠 Arrays | Traversal, prefix sum, in-place operations |
+| 🔵 Two Pointers | Left/right pointers, partitioning |
+| 🟣 Sliding Window | Dynamic windows, frequency maps |
+| 🟡 Hashing | HashMap, HashSet, frequency counting |
+| 🔴 Stack | Monotonic stack, expression evaluation |
+| 🔷 Linked List | Fast/slow pointers, reversal |
+| 🌳 Trees | DFS, BFS, recursion |
+| 🕸️ Graphs | BFS, DFS, topological sort |
+| 🔎 Binary Search | Search-space reduction |
+| 🏔️ Heap | Priority queue, Top-K problems |
+| 🔙 Backtracking | Recursion, state exploration |
+| 🧠 Dynamic Programming | Memoization, tabulation |
+| ⚡ Bit Manipulation | XOR, bit masks |
 
 ---
 
-# 🎯 Goals
+## 🎯 Goals
 
 ### Short Term
+
 - [ ] Complete 30 problems
 - [ ] Complete 50 problems
 - [ ] Complete 75 problems
@@ -350,37 +375,32 @@ For every problem, I focus on:
 
 ### Final Goal
 
-> 🏆 **Complete all 150 Top Interview problems**
-
-```text
-23 / 150
-████░░░░░░░░░░░░░░░░ 15.3%
-```
+> 🏆 Complete all 150 Top Interview problems.
 
 ---
 
-# 📅 Progress Log
+## 📅 Progress Log
 
 | Date | Solved | Milestone |
 |---|---:|---|
-| October 2026 | 23 | 🚀 Started serious Top 150 preparation |
-| Next Target | 30 | 🎯 First milestone |
-| Next Target | 50 | 🔥 Intermediate milestone |
-| Final | 150 | 🏆 Complete |
+| October 11, 2026 | 3 | 🚀 Started structured Top 150 preparation |
+| Next target | 30 | 🎯 First milestone |
+| Next target | 50 | 🔥 Intermediate milestone |
+| Final target | 150 | 🏆 Complete |
 
 ---
 
-# 💻 Languages
+## 💻 Languages
 
 <p>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
 </p>
 
 ---
 
-# 📌 Repository Structure
+## 📌 Repository Structure
 
 ```text
 leetcode-top-interview-150/
@@ -412,18 +432,14 @@ leetcode-top-interview-150/
 
 ## ⭐ Why This Repository?
 
-This repository documents my preparation for technical interviews by solving carefully selected problems from **LeetCode Top Interview 150**.
+This repository documents my preparation for technical interviews by solving problems from **LeetCode Top Interview 150**.
 
-The focus is on:
+The focus is:
 
 **Problem Solving → Patterns → Optimization → Complexity → Implementation**
 
 ---
 
 <p align="center">
-
-### 🚀 Keep Solving. Keep Learning. Keep Improving.
-
-**23 / 150 → 150 / 150**
-
+  🚀 <b>Keep solving. Keep learning. Keep improving.</b>
 </p>
