@@ -11,7 +11,7 @@ class Solution {
                 int x = 0;
                 while (j < n && Character.isDigit(s.charAt(j))) {
                     x = x * 10 + s.charAt(j) - '0';
-                    j++;
+                    j++; 
                 }
                 ans += sign * x;
                 i = j - 1;
