@@ -10,7 +10,7 @@ class Solution {
             int j = i + 1, k = n - 1;
             while (j < k) {
                 int x = nums[i] + nums[j] + nums[k];
-                if (x < 0) {
+                if (x < 0) {  
                     ++j;
                 } else if (x > 0) {
                     --k;
